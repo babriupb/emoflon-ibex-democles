@@ -10,7 +10,19 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-democles.git,master,docs/org.emoflon.ibex.tgg.ide.democles.feature"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-democles.git,master,docs/org.emoflon.ibex.tgg.ide.democles.updatesite"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-democles.git,master,org.emoflon.ibex.tgg.runtime.democles"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core,master,org.moflon.core.branding"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core,master,org.moflon.core.feature"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core,master,."/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core,master,org.moflon.core.utilities"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core,master,org.moflon.core.utilities.test"/>
 </provider>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1512659306616_7" label="emoflon-core" name="emoflon-core">
+<item elementID="=org.moflon.core.branding" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.moflon.core.tycho.parent" type="4"/>
+<item elementID="=org.moflon.core.utilities.test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.moflon.core.utilities" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.moflon.core.feature" type="4"/>
+</workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663509760_2" label="ibex-common" name="ibex-common">
 <item elementID="=org.emoflon.ibex.tgg.core.language" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.tgg.core.runtime" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
